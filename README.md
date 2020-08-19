@@ -2,7 +2,9 @@
  > Built with JavaScript, html5, css3. This app uses the HTML5 canvas element and API
 
 
-[Go To This Project](https://kbingjie.com/)
+[Go To This Project](https://kbingjie.com/breakout-game/)
+
+<img src="showcase.png" alt="breakout game" width="600"/>
 
  ## Customized Features
   - Added easy mode and normal mode instead of single mode
