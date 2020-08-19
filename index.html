@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Breakout Game</title>
+</head>
+
+<body>
+    <h1>Breakout Game</h1>
+    <button id="easy-mode" class="btn easy-mode">Easy Mode</button>
+    <button id="normal-mode" class="btn normal-mode">Normal Mode</button>
+    <button id="rules-btn" class="btn rules-btn">Show Rules</button>
+    <button id="start-btn" class="btn start-btn">Start</button>
+    <span class="previous-score">Previous Score</span>
+    <ul class="score-list">
+    </ul>
+    <div id="rules" class="rules">
+        <h2>How to play:</h2>
+        <p>User your right and left keys to move the paddle to bounce the ball up and break the blocks</p>
+        <p>If you miss the ball, your score and the blocks will reset</p>
+        <p>Easy mode has wider paddle</p>
+        <p>Start with "start" button</p>
+        <p>All your previous score will show on the left side</p>
+        <button id="close-btn" class="btn">Close</button>
+    </div>
+
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <div class="play-again">
+        <div class="box">
+            <h3>Your Final Score is :</h3>
+            <span class="final-score">53</span>
+            <button class="play-again-btn">Play Again</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
