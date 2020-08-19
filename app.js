@@ -156,6 +156,8 @@ function playAgain() {
     ball.y = canvas.height / 2;
     ball.dx = 4;
     ball.dy = -4;
+    paddle.x = canvas.width / 2 - 40;
+    paddle.y = canvas.height - 20;
     update();
 }
 

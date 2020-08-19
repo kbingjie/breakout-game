@@ -67,6 +67,7 @@ span.previous-score {
     position: absolute;
     top: 340px;
     left: 30px;
+    color: #fff;
 }
 ul.score-list {
     position: absolute;
